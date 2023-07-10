@@ -1,0 +1,21 @@
+.figure {
+    display: block;
+    margin: 0
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
+
+.item_post{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.item_post:hover .image {
+    opacity: 0.8;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}

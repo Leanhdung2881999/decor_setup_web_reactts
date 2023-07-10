@@ -1,0 +1,68 @@
+.form {
+    width: 80%;
+}
+
+.title {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+.term {
+    font-size: 11px;
+    color: rgb(118, 118, 118);
+    transition: opacity 0.2s linear 0s;
+    text-align: center;
+    span {
+        color: #000000;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    span:hover {
+        text-decoration: underline;
+    }
+}
+
+.noneStyle {
+    all: revert;
+}
+
+.or{
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+.line{
+    height: 1px;
+    width: 30%;
+    background-color: rgb(118, 118, 118);
+    opacity: 0.4;
+}
+
+.alreadyAMember{
+    font-size: 12px;
+    color: #000000;
+    transition: opacity 0.2s linear 0s;
+    text-align: center;
+
+    span {
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    span:hover {
+        text-decoration: underline;
+    }
+}
